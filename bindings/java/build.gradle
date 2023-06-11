@@ -5,6 +5,7 @@ plugins {
 }
 
 archivesBaseName = 'whispercpp'
+apply plugin: "maven"
 group = 'io.github.ggerganov'
 version = '1.4.0'
 
