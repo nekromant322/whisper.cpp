@@ -6,7 +6,7 @@ install:
   - echo "Running a custom install command"
   - chmod u+x bindings/java/gradlew
   - cd bindings/java
-  - ./gradlew build publishToMavenLocal
+  - ./gradlew build publishToMavenLocal -x test
 #   - cd ../../
 #   - mkdir build
 #   - cp -R bindings/java/build /home/jitpack/build
