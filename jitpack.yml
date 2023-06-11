@@ -7,8 +7,8 @@ install:
   - chmod u+x bindings/java/gradlew
   - cd bindings/java
   - ./gradlew install -x test
-  - cd ../../
-  - mkdir build
-  - cp -R bindings/java/build /home/jitpack/build
+#   - cd ../../
+#   - mkdir build
+#   - cp -R bindings/java/build /home/jitpack/build
 #env:
 #  MYVAR: "custom environment variable"
